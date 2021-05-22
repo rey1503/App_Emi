@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/granja"
+    android:onClick="vocaluno"
+    tools:context=".animalesdos">
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="397dp"
+        android:layout_height="410dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="164dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/pato"
+                android:layout_width="95dp"
+                android:layout_height="133dp"
+                android:onClick="vocaluno"
+                app:srcCompat="@drawable/pato" />
+
+            <ImageView
+                android:id="@+id/oveja"
+                android:layout_width="95dp"
+                android:layout_height="133dp"
+                android:onClick="vocaluno"
+                app:srcCompat="@drawable/oveja" />
+
+            <ImageView
+                android:id="@+id/mosca"
+                android:layout_width="95dp"
+                android:layout_height="133dp"
+                android:onClick="vocaluno"
+                app:srcCompat="@drawable/mosca" />
+
+            <ImageView
+                android:id="@+id/mono"
+                android:layout_width="95dp"
+                android:layout_height="133dp"
+                android:onClick="vocaluno"
+                app:srcCompat="@drawable/mono" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/rana"
+                android:layout_width="95dp"
+                android:layout_height="133dp"
+                android:onClick="vocaluno"
+                app:srcCompat="@drawable/rana" />
+
+            <ImageView
+                android:id="@+id/perro"
+                android:layout_width="95dp"
+                android:layout_height="133dp"
+                android:onClick="vocaluno"
+                app:srcCompat="@drawable/perro" />
+
+            <ImageView
+                android:id="@+id/pollo"
+                android:layout_width="95dp"
+                android:layout_height="133dp"
+                android:onClick="vocaluno"
+                app:srcCompat="@drawable/pollito" />
+
+            <ImageView
+                android:id="@+id/pavo"
+                android:layout_width="95dp"
+                android:layout_height="133dp"
+                android:onClick="vocaluno"
+                app:srcCompat="@drawable/pavo" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/serpiente"
+                android:layout_width="95dp"
+                android:layout_height="133dp"
+                android:onClick="vocaluno"
+                app:srcCompat="@drawable/serpiente" />
+
+            <ImageView
+                android:id="@+id/toro"
+                android:layout_width="95dp"
+                android:layout_height="133dp"
+                android:onClick="vocaluno"
+                app:srcCompat="@drawable/toro" />
+
+            <ImageView
+                android:id="@+id/vaca"
+                android:layout_width="95dp"
+                android:layout_height="133dp"
+                android:onClick="vocaluno"
+                app:srcCompat="@drawable/vaca" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="113dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginBottom="44dp"
+        android:backgroundTint="#CDE309"
+        android:onClick="atras"
+        android:text="@string/atras"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout2" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="113dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="56dp"
+        android:onClick="menu"
+        android:text="@string/Menú"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout2"
+        app:layout_constraintVertical_bias="0.85" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

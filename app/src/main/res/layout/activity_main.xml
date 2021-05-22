@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/principal"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="123dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="76dp"
+        android:backgroundTint="#CF0D0D"
+        android:onClick="colores"
+        android:text="@string/Numeros"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/Numeros" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="123dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="48dp"
+        android:backgroundTint="#6AFF00"
+        android:onClick="animales"
+        android:text="@string/Animales"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/Animales" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="123dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="136dp"
+        android:backgroundTint="#00B7FF"
+        android:text="@string/cuerpo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="@string/cuerpo" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="123dp"
+        android:layout_height="73dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="136dp"
+        android:backgroundTint="#FF6905"
+        android:onClick="vocales"
+        android:text="@string/vocales"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="@string/vocales" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="123dp"
+        android:layout_height="73dp"
+        android:layout_marginBottom="388dp"
+        android:backgroundTint="#FDC706"
+        android:text="@string/colores"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="@string/colores" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

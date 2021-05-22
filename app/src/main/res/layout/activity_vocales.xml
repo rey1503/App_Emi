@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BA68C8"
+    tools:context=".vocales">
+
+    <ImageView
+        android:id="@+id/avion"
+        android:layout_width="120dp"
+        android:layout_height="140dp"
+        android:onClick="vocal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/avion" />
+
+    <ImageView
+        android:id="@+id/elefantes"
+        android:layout_width="120dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="180dp"
+        android:onClick="vocal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/elefante" />
+
+    <ImageView
+        android:id="@+id/iglesia"
+        android:layout_width="120dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="68dp"
+        android:onClick="vocal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/iglesia" />
+
+    <ImageView
+        android:id="@+id/oso"
+        android:layout_width="120dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="84dp"
+        android:onClick="vocal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/elefantes"
+        app:srcCompat="@drawable/oso" />
+
+    <ImageView
+        android:id="@+id/uva"
+        android:layout_width="120dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="68dp"
+        android:onClick="vocal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iglesia"
+        app:srcCompat="@drawable/uva" />
+
+    <Button
+        android:id="@+id/atra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:onClick="atra"
+        android:text="@string/atras"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
